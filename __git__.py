@@ -1,3 +1,16 @@
+import time
+import datetime
+
+
+#print(time.localtime())
+#print(time.strftime("%Y-%m-%d %H:%M:%S"))
+
+today = datetime.date.today()
+td = datetime.timedelta(days=20)
+print(today)
+print(today + td)
+
+
 """ 
 [ start_________________________________________________
 repository
